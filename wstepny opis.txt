@@ -1,0 +1,55 @@
+﻿Projekt realizowany w ramach kursu Akademii C#
+Ilość osób biorących udział w projekcie: 1
+Twórca:  Michał Sawoniuk 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Cel gry:
+Moim projektem będzie stworzenie prostej gry, która będzie grą typu strategia, akcja, ekonomia.
+Z mocnym naciskiem na rozplanowaną strategie i ekonomie, gdyż one będą głównym czynnikiem decydującym jak potoczy się rozgrywka.
+Celem w grze jest podbicie kontynentu/zdobywanie terytoriów walcząc o władze z innymi państwami/państwem.
+Możemy tego dokonać za pomocą planowanej jak na razie jednej możliwości, czyli odbieraniu krok po kroku ziem przeciwnikom aż do momentu w ,którym odbierze się wszystkie terytoria.
+
+Miejsce rozgrywki:
+Akcja gry będzie się działa na kontynencie zamieszkałym przez różne państwa/drużyny jednostek rządzących terytorium na "przestrzeni wieków".  
+Mapa startowa będzie wygenerowana już wcześniej a każde pole terytorium będzie miało ustalony poziom trudości aby je zdobyć.
+
+Walka:
+Walka będzie się odbywać za pomocą drużyny złożonej z rekrutowanych jednostek ,których gracz może posiadać maksymalnie czterech w drużynie.
+Jednostki w drużynie nie są ustalone, można je wymieniać z tymi już posiadanymi w koszarach (wcześniej zakupionymi za pomocą rekrutacji).  
+Ilość jednostek możliwych do kupienia nie jest ograniczona i mogą one przesiadywać w koszarach.
+
+// Koszary jak i drużyna będą zrobione z pomocą odpowiedniej kolekcji do której będzie się dodawać jak i usuwać jednostki.
+// Drużyna będzie miała z góry ustaloną ilość dostępnego miejsca dla jednostek.  
+
+Jednostki:
+Kupowane za pomocą rekrutacji są dołączane do naszej drużyny złożonej już na samym początku z pierwszej unikalnej jednostki.
+Jednostką można zwiększać poziom za pomocą surowca/energii dzięki czemu zwiększamy jej statystyki odpowiednie dla danej klasy jednostki.
+//  Jednostki będą miały takie parametry jak level , klasa i parametry jak np. siła. które będziemy mogli zmieniać po wykonaniu pewnej czynności jak wykupienie kolejnego poziomu dla jednostki.
+Klas jak i podklas ma być kilka w celu utworzeniu optymalnej drużyny do zbliżającej/wybranej potyczki.
+  
+Dana klasa po ulepszeniu ( po osiągnięciu odpowiedniego poziomu) ma posiadać podklasę reprezentująca erę np. procarz zamienia się w łucznika lub kusznika.
+Po osiągnięci odpowiedniego poziomu można je ulepszyć przypisując im daną podklasę, dzięki której zmieniają się parametry jednostki bądź styl walki.
+
+Tereny:
+Każdy podbity teren generuje surówce w wyznaczonym czasie.
+
+Poziomy Trudności:
+Przewidywane są poziomy trudności. Są one wybierane na samym początku gry.
+Każdy poziom będzie zwiększał parametry jednostek przeciwnika adekwatnie do wybranego poziomu trudności lub obniżał nasz przychód z ziem i statystyki naszych bohaterów.
+
+Ulepszenia:
+Przewidywane są ulepszenia nie tylko jednostek ale też niektórych czynności jak szansa na rekrutacje odpowiedniej jednostki z klasą, czy też jednostki z odpowiednim poziomem.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Jak w każdej grze, zmieniają się w niej założenia i pojawiają dodatki na celu ułatwienia odbioru u użytkownika i wyrównania poziomu w każdym etapie gry (odpowiednio do poziomu).
+  
+
+
+
+
+
+
+  
+ 
